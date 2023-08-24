@@ -202,6 +202,15 @@ Splideを使った新しいスライダーブロックを用意
 
 ---
 
+
+
+<!-- classes: title -->
+<!-- background: '/assets/section.jpeg' -->
+
+# SANGOのカスタマイズ紹介
+
+---
+
 ## サイドメニューにはウィジェットグループを使おう
 
 ウィジェットグループを使うと、タイトルとセットでサイドメニューにウィジェットを表示できます。
@@ -249,6 +258,11 @@ https://sangoland.app/blocks/sidemenu
 
 ---
 
+## CSSのカスタマイズには共有CSSを使おう
+
+全てのブロックで同じCSSを使いたい場合は、共有CSSを使うと便利です。
+
+![](/assets/share.png)
 
 
 ## カスタム投稿タイプに対応
@@ -263,11 +277,44 @@ https://sangoland.app/blocks/sidemenu
 
 ## フィルターを使った高度なカスタマイズ
 
+「この記事を書いた人」のカスタマイズ
+
 ```php
 add_filter('sng_author_label', function () {
   return "この記事の監修者";
 });
 ```
+
+記事一覧のカードのカスタマイズ
+
+```php
+add_filter('sng_card_link', function($html, $id) {
+  return "ここに加工したHTMLを返す";
+});
+```
+
+https://sangoland.app/issues/4990ee4f-ed43-4a99-b3da-aba0a1c92f41
+
+---
+
+## フィルターを使った高度なカスタマイズ
+
+ヘッダーのカスタマイズ
+
+```php
+add_filter('sng_header', function($html) {
+  return "ここに加工したHTMLを返す";
+});
+```
+
+フッターのカスタマイズ
+
+```php
+add_filter('sng_footer', function($html) {
+  return "ここに加工したHTMLを返す";
+});
+```
+
 ---
 
 
