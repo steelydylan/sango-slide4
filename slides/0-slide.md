@@ -139,34 +139,26 @@ https://mosya.dev
 
 ## SANGO 3.0リリース後に追加した新機能
 
-- 記事一覧ブロックで「更新順」を追加
-
-![](/assets/posts.png)
+<LinkImage text="記事一覧ブロックで「更新順」を追加" image={<img src="/assets/posts.png"  />} />
 
 ---
 
 ## SANGO 3.0リリース後に追加した新機能
 
-Splideを使った新しいスライダーブロックを用意
-
-- アクセシビリティ的にも速度的にもこちらがお勧め
-- jQuery依存をなくすためにもこちらがお勧め
+<LinkImage text={<div><p>Splideを使った新しいスライダーブロックを用意</p><ul><li>アクセシビリティ的にも速度的にもこちらがお勧め</li><li>jQuery依存をなくすためにもこちらがお勧め</li></ul></div>} image={<img src="/assets/splide.png"  />} />
 
 ---
 
 ## SANGO 3.0リリース後に追加した新機能
 
-旧スライダーから新スライダーに切り替え可能です！
-
-![](/assets/slider-switch.png)
+<LinkImage text="旧スライダーから新スライダーに切り替え可能です！" image={<img src="/assets/slider-switch.png"  />} />
 
 ---
 
 ## SANGO 3.0リリース後に追加した新機能
 
-プラグインなしでプロフィールに写真を追加できるようになりました！
+<LinkImage text="プラグインなしでプロフィールに写真を追加できるようになりました！" image={<img src="/assets/profile.png"  />} />
 
-![](/assets/profile.png)
 
 ---
 
@@ -174,50 +166,34 @@ Splideを使った新しいスライダーブロックを用意
 
 カスタムバリエーション機能
 
-カスタマイズした独自のブロックを増やせる！！<br/>SANGO Landでよく使うものを独自ブロック化するのがお勧め
-
-<!-- block-start: grid -->
-
-<!-- block-start: column -->
-
-![](/assets/custom-block.png)
-
-<!-- block-end: column -->
-
-<!-- block-start: column -->
-
-![](/assets/custom-block2.png)
-
-<!-- block-end: column -->
-
-<!-- block-end: grid -->
+<LinkImage text="カスタマイズした独自のブロックを増やせる！！" image={<img src="/assets/custom-block.png"  />} />
 
 ---
 
 ## SANGO 3.0リリース後に追加した新機能
 
-コンテンツブロックのクリック計測機能
-
-![](/assets/click.png)
+<LinkImage text="SANGO Landでよく使うものを独自ブロック化するのがお勧め" image={<img src="/assets/custom-block2.png"  />} />
 
 ---
 
 ## SANGO 3.0リリース後に追加した新機能
 
-目次をダイアログで開く機能
+<LinkImage text="コンテンツブロックのクリック計測機能" image={<img src="/assets/click.png"  />} />
 
-![](/assets/toc-dialog.png)
+
+---
+
+## SANGO 3.0リリース後に追加した新機能
+
+<LinkImage text="目次をダイアログで開く機能" image={<img src="/assets/toc-dialog.png"  />} />
 
 
 ---
 
 ## カスタム投稿タイプに対応
 
-![](/assets/custom-post.png)
+<LinkImage text={<ul><li>記事一覧ブロックでカスタム投稿タイプを選択可能</li><li>記事一覧ブロックでカスタム投稿タイプのタクソノミーを選択可能</li><li>関連ブロックでカスタム投稿タイプを選択可能</li></ul>} image={<img src="/assets/custom-post.png"  />} />
 
-- 記事一覧ブロックでカスタム投稿タイプを選択可能
-- 記事一覧ブロックでカスタム投稿タイプのタクソノミーを選択可能
-- 関連ブロックでカスタム投稿タイプを選択可能
 
 ---
 
@@ -279,9 +255,7 @@ https://sangoland.app/blocks/sidemenu
 
 ## CSSのカスタマイズには共有CSSを使おう
 
-全てのブロックで同じCSSを使いたい場合は、共有CSSを使うと便利です。
-
-![](/assets/share.png)
+<LinkImage text="共有CSSを使うと、全てのブロックで同じCSSを使えます！" image={<img src="/assets/share.png"  />} />
 
 
 ---

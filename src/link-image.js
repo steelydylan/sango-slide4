@@ -4,7 +4,7 @@ export const LinkImage = ({ image, url, text }) => {
   return (<div className="grid">
     <div className="column">
       <a href={url}>
-        <img src={image} />
+        {image}
       </a>
     </div>
     <div className="column">
