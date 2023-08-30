@@ -213,6 +213,8 @@ Splideを使った新しいスライダーブロックを用意
 
 ## カスタム投稿タイプに対応
 
+![](/assets/custom-post.png)
+
 - 記事一覧ブロックでカスタム投稿タイプを選択可能
 - 記事一覧ブロックでカスタム投稿タイプのタクソノミーを選択可能
 - 関連ブロックでカスタム投稿タイプを選択可能
@@ -302,6 +304,7 @@ SANGO Landのブロックを使うのがお勧め！
 
 ## フィルターを使った高度なカスタマイズ
 
+
 「この記事を書いた人」のカスタマイズ
 
 ```php
@@ -312,13 +315,13 @@ add_filter('sng_author_label', function () {
 
 記事一覧のカードのカスタマイズ
 
+https://sangoland.app/issues/4990ee4f-ed43-4a99-b3da-aba0a1c92f41
+
 ```php
 add_filter('sng_card_link', function($html, $id) {
   return "ここに加工したHTMLを返す";
 });
 ```
-
-https://sangoland.app/issues/4990ee4f-ed43-4a99-b3da-aba0a1c92f41
 
 ---
 
