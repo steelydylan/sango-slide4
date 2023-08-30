@@ -64,9 +64,15 @@ import { LinkImage } from '../src/link-image'
 
 ## ちょっと宣伝！！ブログのカスタマイズにお勧め！
 
-https://mosya.dev
+<LinkImage text={<div>
+  <div style={{ textAlign: 'center' }}>
+    <img src="/assets/qrcode.png" style={{ width: '100px' }}/>
+  </div>
+    <a href="https://mosya.dev">https://mosya.dev</a>
+</div>}
+ image={<img src="/assets/mosya.png" />}
+/>
 
-![](/assets/mosya.png)
 
 
 ---
@@ -100,7 +106,8 @@ https://mosya.dev
 | 時刻          | 内容                                                       | 発表者       | 
 | ------------- | ---------------------------------------------------------- | ------------ | 
 | 20:00 ~ 20:10              | オープニング                                               |              | 
-| 20:10 ~ 20:50 | サイドメニューやヘッターなどのカスタマイズ	                             | <img src="https://avatars.githubusercontent.com/u/2508691?v=4" style={{ width: '40px', height: '40px', verticalAlign: 'middle', borderRadius: '50%' }} /> | 
+| 20:10 ~ 20:30 | SANGO 3.0リリース後に追加した新機能の紹介	                             | <img src="https://avatars.githubusercontent.com/u/2508691?v=4" style={{ width: '40px', height: '40px', verticalAlign: 'middle', borderRadius: '50%' }} /> | 
+| 20:30 ~ 20:50 | サイドメニューやヘッターなどのカスタマイズ	                             | <img src="https://avatars.githubusercontent.com/u/2508691?v=4" style={{ width: '40px', height: '40px', verticalAlign: 'middle', borderRadius: '50%' }} /> | 
 | 20:50 ~ 21:00 | SANGO Landで追加されたブロックの紹介                              | <img src="https://avatars.githubusercontent.com/u/2508691?v=4" style={{ width: '40px', height: '40px', verticalAlign: 'middle', borderRadius: '50%' }} /> | 
 | 21:00 ~ 21:30 | 質問への回答やフリートーク                              | <img src="https://avatars.githubusercontent.com/u/2508691?v=4" style={{ width: '40px', height: '40px', verticalAlign: 'middle', borderRadius: '50%' }} /> | 
 
