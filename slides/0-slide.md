@@ -194,6 +194,11 @@ import { LinkImage } from '../src/link-image'
 
 <LinkImage text="目次をダイアログで開く機能" image={<img src="/assets/toc-dialog.png"  />} />
 
+---
+
+## SANGO 3.0リリース後に追加した新機能
+
+<LinkImage text="段落ブロックの装飾追加" image={<img src="/assets/paragraph-style.png"  />} />
 
 ---
 
